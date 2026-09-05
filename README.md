@@ -30,8 +30,8 @@ On Windows, Notepad is the tool you never think about: it opens instantly, it ho
 
 This app exists to end that friction:
 
-- **Plaintext only.** No fonts panel, no styles, no embedded images. Ever.
-- **Instant like Notepad.** One window, one text view, no sidebar, no toolbar, no iCloud prompt.
+- **Plaintext only.** No styles, no embedded images. Ever. (Font… changes display only — the file stays `.txt`.)
+- **Instant like Notepad.** Plain windows, no sidebar, no toolbar, no iCloud prompt.
 - **Native to macOS.** Real menus, Cmd+S/O/N, F5 Time/Date stamp, word wrap, status bar with Ln/Col — but with Mac keys and Mac windowing.
 - **No Ads Studio policy.** Offline-only. Your text never leaves your machine.
 
@@ -44,6 +44,13 @@ Just like Windows Notepad now has Copilot, Notepad for Mac has AI — powered by
 ## Features
 
 - New / Open / Save / Save As (`.txt`, UTF-8, LF)
+- New Window (⇧⌘N) — multi-window, each with its own doc
+- Open Recent (tracks last files, with Clear Menu)
+- Print… (⌘P, plain-text hard copy)
+- Find… / Find Next / Find Previous (⌘F / ⌘G / ⇧⌘G, native find bar)
+- Replace… (⌥⌘F), Go to Line…
+- Font… (system font panel, display-only — file stays `.txt`)
+- v1.1 next: tabs (incl. Markdown tabs)
 - F5 Time/Date stamp (`h:mm a M/d/yyyy`, like Notepad)
 - Word Wrap toggle, Status Bar toggle (Ln, Col, char count)
 - Zoom In / Out / Reset (Cmd + / − / 0)
