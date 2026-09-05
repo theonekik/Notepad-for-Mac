@@ -37,6 +37,10 @@ This app exists to end that friction:
 
 If you ever wanted Windows Notepad's soul with a Mac body — this is it.
 
+## ✨ AI writing help, built in
+
+Just like Windows Notepad now has Copilot, Notepad for Mac has AI — powered by Apple Intelligence Writing Tools, built into macOS. Proofread, rewrite, summarize, or change tone, right from the Edit menu. No plugin, no account, no subscription — it comes with the OS.
+
 ## Features
 
 - New / Open / Save / Save As (`.txt`, UTF-8, LF)
@@ -45,7 +49,7 @@ If you ever wanted Windows Notepad's soul with a Mac body — this is it.
 - Zoom In / Out / Reset (Cmd + / − / 0)
 - Dirty `*` indicator, discard-changes guard
 - Monospaced editing, smart-quotes/dashes off, spellcheck off
-- macOS Writing Tools (Apple Intelligence) work out of the box in the Edit menu — a system feature, not app code; governed by Apple's privacy terms, not ours
+- ✨ AI writing help in the Edit menu (Apple Intelligence Writing Tools — the Mac's answer to Copilot in Notepad)
 
 ## Build
 
