@@ -134,7 +134,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NS
         let main = NSMenu()
         let appItem = NSMenuItem(); main.addItem(appItem)
         let appMenu = NSMenu()
-        appMenu.addItem(withTitle: "About Notepad", action: #selector(showAbout(_:)), keyEquivalent: "")
+        appMenu.addItem(withTitle: "About Notepad", action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: "")
         appMenu.addItem(.separator())
         appMenu.addItem(withTitle: "Quit Notepad", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         appItem.submenu = appMenu
@@ -178,14 +178,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NS
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
-
-    @objc func showAbout(_ s: Any?) {
-        let a = NSAlert()
-        a.messageText = "Notepad for Mac  v1.0"
-        a.informativeText = "Pure plaintext, exactly like Notepad — native to macOS.\n\nAlthough TextEdit is good, sometimes you just miss a pure plaintext editor: instant, plain, no formatting, no asking. That's why this exists.\n\nBy No Ads Studio by TheOneKiK.\nZero ads. Zero tracking. Zero telemetry. Offline-only — your text never leaves your Mac."
-        a.addButton(withTitle: "OK")
-        a.runModal()
-    }
 }
 
 let app = NSApplication.shared
