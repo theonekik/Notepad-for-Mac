@@ -181,6 +181,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NS
 
     @objc func showAbout(_ s: Any?) {
         let a = NSAlert()
+        a.icon = NSApp.applicationIconImage
         a.messageText = "Notepad for Mac"
         a.informativeText = "Version 1.0\n\nBy No Ads Studio by TheOneKiK.\nZero ads. Zero tracking. Zero telemetry. Offline-only."
         a.addButton(withTitle: "OK")
