@@ -1,0 +1,6 @@
+.DS_Store
+.build/
+*.o
+DerivedData/
+Notepad.app/
+Notepad.zip
