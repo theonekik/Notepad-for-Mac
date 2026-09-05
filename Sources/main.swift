@@ -134,7 +134,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NS
         let main = NSMenu()
         let appItem = NSMenuItem(); main.addItem(appItem)
         let appMenu = NSMenu()
-        appMenu.addItem(withTitle: "About Notepad", action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: "")
+        appMenu.addItem(withTitle: "About Notepad", action: #selector(showAbout(_:)), keyEquivalent: "")
         appMenu.addItem(.separator())
         appMenu.addItem(withTitle: "Quit Notepad", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         appItem.submenu = appMenu
@@ -178,6 +178,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NS
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
+
+    @objc func showAbout(_ s: Any?) {
+        let a = NSAlert()
+        a.messageText = "Notepad for Mac"
+        a.informativeText = "Version 1.0\n\nBy No Ads Studio by TheOneKiK.\nZero ads. Zero tracking. Zero telemetry. Offline-only."
+        a.addButton(withTitle: "OK")
+        a.runModal()
+    }
 }
 
 let app = NSApplication.shared
