@@ -45,6 +45,7 @@ If you ever wanted Windows Notepad's soul with a Mac body — this is it.
 - Zoom In / Out / Reset (Cmd + / − / 0)
 - Dirty `*` indicator, discard-changes guard
 - Monospaced editing, smart-quotes/dashes off, spellcheck off
+- macOS Writing Tools (Apple Intelligence) work out of the box in the Edit menu — a system feature, not app code; governed by Apple's privacy terms, not ours
 
 ## Build
 
