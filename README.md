@@ -1,5 +1,7 @@
 # Notepad for Mac
 
+<img src="Assets/icon.png" width="128" alt="Notepad for Mac icon">
+
 > Pure plaintext. Instant. Native. No nonsense.
 
 **By [No Ads Studio by TheOneKiK](https://github.com/theonekik)** — zero ads, zero tracking, zero telemetry. Forever.
@@ -11,7 +13,7 @@
 
 ## ⬇️ Download & Install (30 seconds)
 
-**[⬇️ Download Notepad for Mac v1.0](https://github.com/theonekik/Notepad-for-Mac/releases/download/v1.0/Notepad.app.zip)** (24 KB zip)
+**[⬇️ Download Notepad for Mac v1.0](https://github.com/theonekik/Notepad-for-Mac/releases/download/v1.0/Notepad.app.zip)** (~2 MB zip)
 
 1. Click the link above (or get it anytime at [Releases](https://github.com/theonekik/Notepad-for-Mac/releases)).
 2. Unzip → you get `Notepad.app`.
