@@ -9,6 +9,17 @@
 ![Swift](https://img.shields.io/badge/Swift-AppKit-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
+## ⬇️ Download & Install (30 seconds)
+
+**[⬇️ Download Notepad for Mac v1.0](https://github.com/theonekik/Notepad-for-Mac/releases/download/v1.0/Notepad.app.zip)** (24 KB zip)
+
+1. Click the link above (or get it anytime at [Releases](https://github.com/theonekik/Notepad-for-Mac/releases)).
+2. Unzip → you get `Notepad.app`.
+3. Drag `Notepad.app` into **Applications**.
+4. First launch: right-click → **Open** (app is unsigned, so macOS asks once), then use normally.
+
+No installer, no account, nothing else.
+
 ## Why this app was built
 
 Although TextEdit is good, I sometimes badly miss a plaintext editor — just like Notepad. A pure Notepad, exactly like how it is in Windows, with a native-to-the-OS feeling.
