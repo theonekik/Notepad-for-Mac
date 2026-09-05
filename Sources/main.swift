@@ -1,5 +1,13 @@
 import AppKit
 
+final class StatusBarView: NSView {
+    override func draw(_ r: NSRect) {
+        NSColor.windowBackgroundColor.setFill(); bounds.fill()
+        NSColor.separatorColor.setFill()
+        NSRect(x: 0, y: bounds.height - 1, width: bounds.width, height: 1).fill()
+    }
+}
+
 final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NSWindowDelegate {
     var window: NSWindow!
     var textView: NSTextView!
@@ -34,8 +42,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSTextViewDelegate, NS
         textView.allowsUndo = true
         scroll.documentView = textView
 
-        statusBar = NSView(); statusBar.translatesAutoresizingMaskIntoConstraints = false
-        statusBar.wantsLayer = true; statusBar.layer?.backgroundColor = NSColor.windowBackgroundColor.cgColor
+        statusBar = StatusBarView(); statusBar.translatesAutoresizingMaskIntoConstraints = false
         statusLabel = NSTextField(labelWithString: "Ln 1, Col 1  |  0 chars  |  UTF-8  |  LF")
         statusLabel.font = .systemFont(ofSize: 11); statusLabel.textColor = .secondaryLabelColor
         statusLabel.translatesAutoresizingMaskIntoConstraints = false
